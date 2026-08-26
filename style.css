@@ -309,3 +309,23 @@ body {
   color: #333333;
   font-weight: bold;
 }
+
+
+/* Ajusta o banner principal do PS2 */
+.banner1 img,
+.banner1 {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Ajusta o vídeo do YouTube */
+.video-container iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+  display: block;
+  margin: 20px auto;
+}
